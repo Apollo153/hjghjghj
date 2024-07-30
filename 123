@@ -48,9 +48,9 @@ Environment.FOVSettings = {
 	Amount = 90,
 	Color = Color3.fromRGB(255, 255, 255),
 	LockedColor = Color3.fromRGB(255, 255, 255),
-	Transparency = 0.5,
+	Transparency = 1,
 	Sides = 60,
-	Thickness = 1,
+	Thickness = 1.5,
 	Filled = false
 }
 
@@ -237,9 +237,9 @@ function Environment.Functions:ResetSettings()
 		Amount = 90,
 		Color = Color3.fromRGB(255, 255, 255),
 		LockedColor = Color3.fromRGB(255, 255, 255),
-		Transparency = 0.5,
+		Transparency = 1,
 		Sides = 60,
-		Thickness = 1,
+		Thickness = 1.5,
 		Filled = false
 	}
 end
